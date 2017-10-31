@@ -3,6 +3,8 @@ from fresh_tomatoes import open_movies_page
 from entertainment_center import Entertainment
 
 
+# I have taken reference from https://chriswarrick.com/listings/entry_points_project/my_project/__main__.py.html for the semantic 
+# of code
 def main(args=None):
     """The movie trailer website's main routine and code executes from here"""
     if args is None:
