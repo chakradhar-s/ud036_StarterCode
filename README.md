@@ -25,7 +25,7 @@ Clone or download source code as a zip file.
   * .git
   * movie_trailer
 
-move to one level deeper that is where the setup.py file is in, to cross check whether the path is correct, in command line or command prompt run ls -l command which should show all above mentioned files in the directory with its type and run below commands either
+move to one level deeper that is where the setup.py file is in, to cross check whether the path is correct, in command line or command prompt run ls -l command which should show all above mentioned files with their type in the directory and run below commands either
 
 ```
 python -m movie_trailer
