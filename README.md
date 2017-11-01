@@ -10,6 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 To run the package or the project, python 2.7 or 3.* environment is needed
 and ensure environment path is configured correctly. You can configure any version of the python on the project.
 
+ **A Live internet connection is needed to display image and video from their respective URIs **
+
 
 ### Installing
 
