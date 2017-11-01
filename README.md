@@ -14,7 +14,16 @@ and ensure environment path is configured correctly. You can configure any versi
 ### Installing
 
 Clone or download source code as a zip file.
-If cloned, otherwise extract the zip, open a command line tool or command prompt point/(change directory) the path to the working directory where repo was cloned and run below commands either
+
+### Directory structure should like 
+
+- Path of cloned source code folder or extracted folder from a zip file (example: on windows this may be "d:\path\ud036_StarterCode-initial_ud036_program, on linux this may be /media/path/ud036_StarterCode-initial_ud036_program)
+  * setup.py
+  * README.md
+  * .git
+  * movie_trailer
+
+move to one level deeper that is where the setup.py file is in, to cross check whether the path is correct, in command line or command prompt run ls -l command which should show all above mentioned files in the directory with its type and run below commands either
 
 ```
 python -m movie_trailer
@@ -25,4 +34,7 @@ python -m movie_trailer
 ```
 python movie_trailer
 ``` 
+### Testing
 
+By running above either of commands, a html should be generated and the same html is opened on your default browser window.
+Expected output is on the wiki page
